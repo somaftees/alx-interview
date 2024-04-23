@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-""" Pascal`s Triangle"""
+""" 
+Pascal`s Triangle
+"""
 
 
 def pascal_triangle(n):
-    """Pascal`s Triangle function"""
+    """
+    Pascal`s Triangle function
+    """
     res = []
     if n > 0:
         for i in range(1, n + 1):
